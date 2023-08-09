@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "title": "BowWOW",
+        "price": 10.95,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDhfw0RtWFGHRdJ7WNUYDKIfLlCb2PYI86F_4G7DUhFNte16qhmi1dDa3qraBdPXkVteA&usqp=CAU",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Paw Pals",
+        "price": 22.3,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqlrFz7HR4AFfrOiYXHBqraB9dlkxOnNQcPqc7nCeDeaIJg5UTzmdBYAZnhWM1rkQDowg&usqp=CAU",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "Woof and Away",
+        "price": 25.99,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2U_dOX-ZIPm4OFi90mZgP_lyCNOCGem-bzKBXk1roUtdRKDIewrnL7OHViB6YII8QHXw&usqp=CAU",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    },
+    {
+        "id": 4,
+        "title": "The Circle Of Cats",
+        "price": 15.99,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb7jz8TZ_0w-_PYxwATswYiYQjyt6JKPp07A&usqp=CAU",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 5,
+        "title": "Dog Dynasty",
+        "price": 20.5,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYJFkg33PO4QnK06474BVqODtbAstj29jqGA&usqp=CAU",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    },
+    {
+        "id": 6,
+        "title": "Pets A Fortune ",
+        "price": 16.8,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5enAiIQ8k8be9WjvOSYGFMmrdRDqWzmmELg&usqp=CAU",
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        }
+    },
+    {
+        "id": 7,
+        "title": "Dazzling Gold Pet Shop",
+        "price": 9.99,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTprZUVI7htUjHzfDjNJ6kIfzw0-q478PQZBQ&usqp=CAU",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
+    },
+    {
+        "id": 8,
+        "title": "Treats For Tricks",
+        "price": 10.99,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbddEKAPobju-hMcOT3txpfAehZFipz34kKw&usqp=CAU",
+        "rating": {
+            "rate": 1.9,
+            "count": 100
+        }
+    },
+    {
+        "id": 9,
+        "title": "Dollars & Puppies Pet Shop",
+        "price": 14.2,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDhfw0RtWFGHRdJ7WNUYDKIfLlCb2PYI86F_4G7DUhFNte16qhmi1dDa3qraBdPXkVteA&usqp=CAU",
+        "rating": {
+            "rate": 3.3,
+            "count": 203
+        }
+    },
+    {
+        "id": 10,
+        "title": "Paws & Feathers",
+        "price": 11.9,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqlrFz7HR4AFfrOiYXHBqraB9dlkxOnNQcPqc7nCeDeaIJg5UTzmdBYAZnhWM1rkQDowg&usqp=CAU",
+        "rating": {
+            "rate": 2.9,
+            "count": 470
+        }
+    },
+    {
+        "id": 11,
+        "title": "Kitty Love Shop",
+        "price": 10.9,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2U_dOX-ZIPm4OFi90mZgP_lyCNOCGem-bzKBXk1roUtdRKDIewrnL7OHViB6YII8QHXw&usqp=CAU",
+        "rating": {
+            "rate": 4.8,
+            "count": 319
+        }
+    },
+    {
+        "id": 12,
+        "title": "Pet & Co",
+        "price": 11.4,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcJ81Q6g8m0vsgUqSQmmhr_Vcv12UvfUIiow&usqp=CAU",
+        "rating": {
+            "rate": 4.8,
+            "count": 400
+        }
+    },
+    {
+        "id": 13,
+        "title": "The Pet Jungle",
+        "price": 17.9,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb7jz8TZ_0w-_PYxwATswYiYQjyt6JKPp07A&usqp=CAU",
+        "rating": {
+            "rate": 2.9,
+            "count": 250
+        }
+    },
+    {
+        "id": 14,
+        "title": "Amazing Animal Love",
+        "price": 19.99,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYJFkg33PO4QnK06474BVqODtbAstj29jqGA&usqp=CAU",
+        "rating": {
+            "rate": 2.2,
+            "count": 140
+        }
+    },
+    {
+        "id": 15,
+        "title": "The World of Pets",
+        "price": 15.99,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5enAiIQ8k8be9WjvOSYGFMmrdRDqWzmmELg&usqp=CAU",
+        "rating": {
+            "rate": 2.6,
+            "count": 235
+        }
+    },
+    {
+        "id": 16,
+        "title": "Tails & Wiggles Pet Store",
+        "price": 20.95,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD0878H8CyTVj5rQVrf5TYe7yMWny9lD9G9g&usqp=CAU",
+        "rating": {
+            "rate": 2.9,
+            "count": 340
+        }
+    },
+    {
+        "id": 17,
+        "title": "The Pet President Pet Shop",
+        "price": 13.99,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTprZUVI7htUjHzfDjNJ6kIfzw0-q478PQZBQ&usqp=CAU",
+        "rating": {
+            "rate": 3.8,
+            "count": 679
+        }
+    },
+    {
+        "id": 18,
+        "title": "The Wiggly Butts Pet Store ",
+        "price": 9.85,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbddEKAPobju-hMcOT3txpfAehZFipz34kKw&usqp=CAU",
+        "rating": {
+            "rate": 4.7,
+            "count": 130
+        }
+    },
+    {
+        "id": 19,
+        "title": "Wiggle Wiggle Pet Store",
+        "price": 7.95,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDhfw0RtWFGHRdJ7WNUYDKIfLlCb2PYI86F_4G7DUhFNte16qhmi1dDa3qraBdPXkVteA&usqp=CAU",
+        "rating": {
+            "rate": 4.5,
+            "count": 146
+        }
+    },
+    {
+        "id": 20,
+        "title": "Cute Creatures Pet Store",
+        "price": 12.99,
+        "description": " Pets At Home offers the ultimate pet shop experience. We have all the pet supplies, pet food, toys and accessories you and your pet needs at great prices.",
+        "category": "Shop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqlrFz7HR4AFfrOiYXHBqraB9dlkxOnNQcPqc7nCeDeaIJg5UTzmdBYAZnhWM1rkQDowg&usqp=CAU",
+        "rating": {
+            "rate": 3.6,
+            "count": 145
+        }
+    }
+]
