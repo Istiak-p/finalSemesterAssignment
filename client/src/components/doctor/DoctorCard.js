@@ -21,7 +21,8 @@ const DoctorCard = (props) => {
                     <Card.Text>{address.city}</Card.Text>
                     <Card.Text>{address.zipcode}</Card.Text>
                    <Link to="/join"> <Button onClick={()=>startChat()}><BsChatText size='1rem'/>Chat Now</Button></Link>{' '}
-                    <Button onClick={()=>startChat()}><RiVideoChatLine size='1rem'/>Vedio Chat</Button>
+                    <Link to="/joinpage"><Button onClick={()=>startChat()}><RiVideoChatLine size='1rem'/>Vedio Chat</Button></Link>
+                    
                 </Card.Body>
             </Card>
         </div>

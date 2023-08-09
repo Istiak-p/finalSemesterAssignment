@@ -16,6 +16,9 @@ import Shop from "./components/shop/Shop";
 import Successfull from "./components/Successfull";
 import Vaccine from "./components/vaccine/Vaccine";
 import VaccineCart from "./components/vaccine/VaccineCart";
+import Joinpage from "./components/vedioCall/Joinpage";
+import Room from "./components/vedioCall/Room";
+
 import { auth } from "./firebase";
 import Home from "./pages/Home";
 function App() {
@@ -48,6 +51,8 @@ function App() {
                 <Route path="/reservation" element={ <Reservation/>}/>
                 <Route path="/reservationother" element={ <ReservationOther/>}/>
                 <Route path="/time" element={ <Time/>}/>
+                <Route path="/joinpage" element={ <Joinpage/>}/>
+                <Route path="/room/:roomID" element={ <Room/>}/>
               </Routes>
           </Router> 
           <Footer></Footer>
