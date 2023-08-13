@@ -20,7 +20,7 @@ const Vaccine = () => {
             <InputGroup className="mb-3">
                 <InputGroup.Text><BsSearch size='2.5rem'/></InputGroup.Text>
                 <Form.Control
-                placeholder="Username"
+                placeholder="Search"
                 value={searchInput}
                 onChange={(e)=>setSearchInput(e.target.value)}
                 /> </InputGroup>

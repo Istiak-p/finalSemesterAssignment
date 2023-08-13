@@ -1,31 +1,42 @@
 import React from 'react';
-import {GrLocation} from 'react-icons/gr';
-import {AiFillPhone} from 'react-icons/ai';
-import {CgMail} from 'react-icons/cg';
+import {AiFillInstagram,AiFillFacebook,AiFillYoutube} from 'react-icons/ai';
 import {BsTelegram} from 'react-icons/bs';
-import {AiFillFacebook} from 'react-icons/ai';
-import {AiFillYoutube} from 'react-icons/ai';
-import {AiFillInstagram} from 'react-icons/ai';
+
+import { FaMapMarkerAlt,FaMobileAlt,FaGoogle,FaUserAlt } from "react-icons/fa";
+
 import { Container, ListGroup, NavLink, Row } from 'react-bootstrap';
 
 const Footer = () => {
     return (
         <Row className=' mt-3 w-100 mb-0  bg-black h-75'>
-            <Container style={{backgroundColor: "gray",height:"350px"}}className="d-flex justify-content-around align-items-start">
+            <Container style={{backgroundColor: "#080808",height:"350px"}}className="d-flex justify-content-around align-items-start">
+                <div style={{marginTop:'150px'}}>
+                <h4 style={{color:'white'}}>Our soicial site link</h4>
+                <div style={{display:'flex'}}>
+                <NavLink to="http://www.youtube.com" style={{color: "red",fontSize:'30px',margin:'5px'}}><AiFillYoutube> </AiFillYoutube>  </NavLink>
+                <NavLink to="http://www.instragram.com" style={{color: "#f5589c",fontSize:'30px',margin:'5px'}}><AiFillInstagram></AiFillInstagram> </NavLink>
+               <NavLink to="http://www.telegram.com" style={{color: "blue",fontSize:'30px',margin:'5px'}}><BsTelegram></BsTelegram> </NavLink>
+               <NavLink to="http://www.facebook.com" style={{color: "blue",fontSize:'30px',margin:'5px'}}><AiFillFacebook></AiFillFacebook></NavLink>
+               </div> 
+               </div>
 
-            <ListGroup.Item style={{backgroundColor: "gray",fontSize:"30px",marginTop:"50px"}} >
-                <span><NavLink to="http://www.youtube.com" style={{color: "red",display:"flex"}}><AiFillYoutube></AiFillYoutube> Youtube  </NavLink></span>
-                <span><NavLink to="http://www.instragram.com" style={{color: "#f5589c"}}><AiFillInstagram></AiFillInstagram> Instragram</NavLink></span>
-                <span><NavLink to="http://www.telegram.com" style={{color: "blue"}}><BsTelegram></BsTelegram> Telegram </NavLink></span>
-                <span><NavLink to="http://www.facebook.com" style={{color: "blue"}}><AiFillFacebook></AiFillFacebook> Facebook</NavLink></span></ListGroup.Item>
-             
-                
+                <div style={{color:'white',marginTop:'150px'}}>
+                    <h4>Our Address</h4>
+                    <p style={{color:'red'}}><FaMapMarkerAlt></FaMapMarkerAlt>Monnafer Mor, Boyalia, Rajsahahi</p>
+                    <p style={{color:'red'}}><FaMobileAlt></FaMobileAlt>01717314076</p>
+                    <p style={{color:'red'}}><FaGoogle></FaGoogle>istiakahemd11085@gmail.com</p>
+
+                </div>
             
-            <ListGroup style={{}} className='mt-3 h-50'>
-                <ListGroup.Item style={{backgroundColor: "gray",fontSize:"30px",marginTop:"50px"}} ><span><GrLocation></GrLocation>  </span>KadirGanj Rajshahi</ListGroup.Item>
-                <ListGroup.Item style={{backgroundColor: "gray",fontSize:"30px"}}><span><AiFillPhone></AiFillPhone> </span>013xxxxxxxx</ListGroup.Item>
-                <ListGroup.Item style={{backgroundColor: "gray",fontSize:"30px"}} ><span><CgMail></CgMail> </span>istiak@gmail.com</ListGroup.Item>
-            </ListGroup>
+
+                <div style={{color:'white',marginTop:'150px'}}>
+                    <h4>Company Owner</h4>
+                    <p style={{color:'red'}}><FaUserAlt></FaUserAlt>Mr.X</p>
+                    <p style={{color:'red'}}><FaUserAlt></FaUserAlt>Mr.Y</p>
+                    <p style={{color:'red'}}><FaUserAlt></FaUserAlt>Mr.Z</p>
+
+                </div>
+
             </Container>
 
         </Row>

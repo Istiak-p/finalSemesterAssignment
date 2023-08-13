@@ -12,7 +12,7 @@ const ShopCard = (props) => {
                 <Card.Img style={{width:"295px",height:"250px"}} variant="top" src={image} />
                 <Card.Body>
                     <Card.Title>{title}</Card.Title>
-                    <Card.Title>{price} $ </Card.Title>
+                    <Card.Title>{price} Tk </Card.Title>
                     <Card.Text>{description}</Card.Text>
                     <Link to="/reservation"><Button onClick={()=>addToCart()}>book now</Button></Link>
                 </Card.Body>

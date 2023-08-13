@@ -17,8 +17,8 @@ const Slider = () => {
                             alt="First slide"
                             />
                             <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3 style={{fontSize:'50px'}}>Happy animal</h3>
+                            <p style={{fontSize:'30px'}}>Pets need special attention to keep them happy and healthy. We provide the best service.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
@@ -30,8 +30,8 @@ const Slider = () => {
                             />
 
                             <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <h3 style={{fontSize:'50px'}}>Services for various pets</h3>
+                            <p style={{fontSize:'30px'}}>We care for a wide variety of animals. We offer all the services that animals need together.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
@@ -43,9 +43,9 @@ const Slider = () => {
                             />
 
                             <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                            <h3 style={{fontSize:'50px'}}>Pet friendly environment</h3>
+                            <p style={{fontSize:'30px'}}>
+                            Pets need a friendly environment, which we provide. We are always ready to serve pets.
                             </p>
                             </Carousel.Caption>
                         </Carousel.Item>

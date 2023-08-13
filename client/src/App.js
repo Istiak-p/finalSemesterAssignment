@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch,Routes, Route } from "react-router-dom";
 import Chat from "./components/chatapp/Chat";
 import Join from "./components/chatapp/Join";
 import Doctor from "./components/doctor/Doctor";
@@ -18,9 +18,13 @@ import Vaccine from "./components/vaccine/Vaccine";
 import VaccineCart from "./components/vaccine/VaccineCart";
 import Joinpage from "./components/vedioCall/Joinpage";
 import Room from "./components/vedioCall/Room";
+import AuthProvider from "./Context/AuthProvider";
+import PrivetRoute from "./components/PrivetRouter/PrivetRoute";
+
 
 import { auth } from "./firebase";
 import Home from "./pages/Home";
+
 function App() {
   const [userName,setUserName]=useState("");
   useEffect(() => {
@@ -32,18 +36,18 @@ function App() {
   },[])
   return (
       <>
-        
+       
         <Router>
           <Header name={userName}></Header>
-              <Routes>
+              <Routes>             
                 <Route path="/signup" element={ <Signup/>}/>
                 <Route path="/login" element={<Login/>}/>
                 <Route path="/googlesignup" element={<Googlelogin/>}/>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/doctor" element={<Doctor/>}/>
-                <Route path="/shop" element={<Shop/>}/>
-                <Route path="/vaccine" element={<Vaccine/>}/>
-                <Route path="/vaccinecart" element={<VaccineCart/>}/>
+                <Route path="/" element={<Home/>}/>              
+                <Route path="/doctor" element={<Doctor/>}/>               
+                <Route path="/shop" element={<Shop/>}/>                
+                <Route path="/vaccine" element={<Vaccine/>}/>                
+                <Route path="/vaccinecart" element={<VaccineCart/>}/>                
                 <Route path="/informationform" element={<InformationForm/>}/>
                 <Route path="/successfull" element={<Successfull/>}/>
                 <Route path="/join" element={<Join/>}/>
@@ -56,6 +60,7 @@ function App() {
               </Routes>
           </Router> 
           <Footer></Footer>
+         
       </>
   );
 }

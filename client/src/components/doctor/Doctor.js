@@ -8,7 +8,7 @@ const Doctor = () => {
     const [searchInput,setSearchInput]=useState('');
     const [doctorData,setDoctorData]=useState([]);
     useEffect(()=>{
-        fetch('https://jsonplaceholder.typicode.com/users')
+        fetch('./Doctor.json')
         .then(res=>res.json())
         .then(data=>setDoctorData(data));
          },[]);
@@ -16,7 +16,7 @@ const Doctor = () => {
     return (
         <>
             <Container>
-                <InputGroup className="mb-3">
+                <InputGroup className="mb-3 mt-3" >
                     <InputGroup.Text><BsSearch size="3rem"/></InputGroup.Text>
                     <Form.Control
                     placeholder="search"

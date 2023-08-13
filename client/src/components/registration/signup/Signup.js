@@ -1,13 +1,13 @@
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import React, { useState } from 'react';
 import { Button, Container, Row } from 'react-bootstrap';
-import { Link, useNavigate} from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { auth } from '../../../firebase';
 
 import InputControl from '../inputcontrol/InputControl';
 
 const Signup = () => {
-    const navigate=useNavigate();
+    const navigate=useNavigate ();
     const [values, setValues] = useState({
         name:"",
         email:"",

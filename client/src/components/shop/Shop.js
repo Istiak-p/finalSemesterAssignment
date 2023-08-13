@@ -19,7 +19,7 @@ const Shop= () => {
                 <InputGroup className="mb-3">
                     <InputGroup.Text><BsSearch size="3rem"/></InputGroup.Text>
                     <Form.Control
-                    placeholder="search"
+                    placeholder="Search"
                     onChange={(e)=>setSearchInput(e.target.value)}
                     />
                 </InputGroup>

@@ -12,7 +12,7 @@ const VaccineCard = (props) => {
                 <Card.Img style={{width:"295px",height:"250px"}} variant="top" src={image} />
                 <Card.Body style={{}}>
                     <Card.Title>{title}</Card.Title>
-                    <Card.Title>{price} $</Card.Title>
+                    <Card.Title>{price} Tk</Card.Title>
                     <Card.Text>{description}</Card.Text>
                     <Button onClick={()=>addToCart()}>Add to cart</Button>
                 </Card.Body>

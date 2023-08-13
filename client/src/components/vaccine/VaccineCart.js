@@ -36,7 +36,7 @@ const VaccineCart = (props) => {
                     } 
                     {!isEmpty &&
                         <tr className='sticky-bottom w-100 '>
-                            <td className='p-4'><h4>Total price : Tk.{cartTotal}</h4></td>
+                            <td className='p-4'><h4>Total price : Tk.{cartTotal.toFixed(2)}</h4></td>
                             <td ><Button onClick={()=>emptyCart()}><BsCartX size="2rem"/>Clear Cart</Button> </td>
                             <td><Link to='/informationform'><Button ><BsCartCheck size="2rem"/>Conform Order</Button></Link></td> 
                         </tr>

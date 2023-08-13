@@ -15,7 +15,7 @@ const Join = () => {
     return (
         <>
             <Container>
-                <InputGroup className="mb-3">
+                <InputGroup className="mb-3 mt-3">
                     <Form.Control
                     placeholder="Username"
                     id="joinInput"

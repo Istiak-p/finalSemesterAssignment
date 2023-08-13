@@ -18,7 +18,7 @@ const InformationForm = () => {
                     onChange={(e)=>setName(e.target.value)}
                     />
             </InputGroup>
-                {name}
+                
             <InputGroup className="mb-3 w-75">
                     <InputGroup.Text>Mobile</InputGroup.Text>
                     <Form.Control
@@ -26,7 +26,7 @@ const InformationForm = () => {
                     onChange={(e)=>setMobile(e.target.value)}
                     />
             </InputGroup>
-                {mobile}
+               
             <InputGroup className="mb-3 w-75">
                 <InputGroup.Text>With textarea</InputGroup.Text>
                     <Form.Control 
@@ -34,7 +34,7 @@ const InformationForm = () => {
                     onChange={(e)=>setAddress(e.target.value)}
                     />
             </InputGroup>
-            {address}
+            
             
             <Link to='/successfull'onClick={()=>emptyCart()}><Button>Pleace Order</Button></Link> 
            </Container>
